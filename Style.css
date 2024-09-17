@@ -1,0 +1,115 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Opgaver {
+    float: left;
+    overflow: hidden;
+}
+
+.Opgaver .OpgaverKnap{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .Opgaver:hover .OpgaverKnap {
+    background-color: lightgray;
+}
+
+.Opgaveliste{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Opgaveliste a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.Opgaveliste a:hover {
+    background-color: #ddd;
+}
+
+
+.Opgaver:hover .Opgaveliste {
+    display: block;
+}
+
+/*links*/
+
+.Links {
+    float: left;
+    overflow: hidden;
+}
+
+.Links .LinksKnap{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .Links:hover .LinksKnap {
+    background-color: lightgray;
+}
+
+.Linksliste{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Linksliste a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.Linksliste a:hover {
+    background-color: #ddd;
+}
+
+
+.Links:hover .Linksliste {
+    display: block;
+}
+
+.pwd{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
